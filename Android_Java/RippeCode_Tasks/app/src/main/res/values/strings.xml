@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RippeCode_Tasks</string>
+    <string name="n">Введите размер массива (n)</string>
+    <string name="startButton">Принять</string>
+    <string name="refreshButton">Заново</string>
+    <string name="m">Введите размер подмассива(m)</string>
+    <string name="task_1">Task 1</string>
+    <string name="task_2">Task 2</string>
+    <string name="Back">Назад</string>
+    <string name="getAnswer">Получить ответ</string>
+</resources>

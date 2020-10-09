@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Task1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Back"
+        android:onClick="back"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/n"
+        android:hint="@string/n"
+        android:inputType="number"
+        android:digits="0123456789"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/m"
+        android:hint="@string/m"
+        android:visibility="invisible"
+        android:inputType="number"
+        android:digits="0123456789"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/startButton"
+        android:id="@+id/startButton"
+        android:onClick="start"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/refreshButton"
+        android:id="@+id/refresh"
+        android:visibility="invisible"
+        android:onClick="restart"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:paddingLeft="50dp"
+            android:scrollbars="vertical"
+            android:paddingRight="50dp"/>
+    </ScrollView>
+
+</LinearLayout>
